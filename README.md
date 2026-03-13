@@ -15,13 +15,15 @@ If you use this code in your research, please cite the paper.
 # MATLAB Scripts Overview
 
 This repository contains MATLAB programs for evaluating **time-delay filters (TDFs)** for a spring–mass system using **Monte Carlo (MC) simulations**, **Polynomial Chaos Expansion (PCE)**, and **Global Sensitivity Analysis (GSA)**.
+<p align="center">
+  <img src="figures/Figure_1_GSA.png" width="600">
+</p>
 
 ---
 
 # MC_Spring_Mass_*.m
 
 These scripts perform **Monte Carlo simulations for different TDF configurations**.
-figures/Figure_1_GSA.png
 
 ## Outputs
 
@@ -38,6 +40,10 @@ The default tested sample sizes are: [1000 5000 10000 50000 100000]
 
 
 This vector can be modified. A vector with a **single entry** can also be used to compute only one result.
+
+<p align="center">
+  <img src="figures/Figure_2_MC.png" width="600">
+</p>
 
 ## Additional Outputs (Robust TDF only)
 
@@ -69,6 +75,10 @@ over time using a **Polynomial Chaos Expansion (PCE)** approximation.
 The following polynomial orders are evaluated:
 p = [10 20 30]
 
+<p align="center">
+  <img src="figures/Figure_3_Position_and_Velocity_E_and_Var.png" width="600">
+</p>
+
 ## Outputs
 
 The computed values are saved as:
@@ -77,6 +87,9 @@ vars_PCE_mat.mat
 
 
 A **bar chart showing the computation time for each polynomial degree** is also generated (**Figure 4**).
+<p align="center">
+  <img src="figures/Figure_4_PCE_time.png" width="600">
+</p>
 
 ---
 
@@ -130,3 +143,6 @@ Because the first heatmap has the **larger value range**, its colormap is reused
 - **Red (positive values):** the robust TDF performs better
 - **Green (negative values):** the GSA TDF performs better
 
+<p align="center">
+  <img src="figures/Figure_5_Heatmap.png" width="600">
+</p>
