@@ -21,6 +21,7 @@ This repository contains MATLAB programs for evaluating **time-delay filters (TD
 # MC_Spring_Mass_*.m
 
 These scripts perform **Monte Carlo simulations for different TDF configurations**.
+figures/Figure_1_GSA.png
 
 ## Outputs
 
