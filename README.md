@@ -1,3 +1,17 @@
+# Repository for ACC 2026 Paper
+
+This repository contains the MATLAB code used in the paper:
+
+**"Polynomial Chaos-based Input Shaper Design under Time-Varying Uncertainty"**  
+Accepted at **American Control Conference (ACC) 2026**.
+
+📄 Preprint available on arXiv:  
+https://arxiv.org/abs/2601.17209
+
+If you use this code in your research, please cite the paper.
+
+---
+
 # MATLAB Scripts Overview
 
 This repository contains MATLAB programs for evaluating **time-delay filters (TDFs)** for a spring–mass system using **Monte Carlo (MC) simulations**, **Polynomial Chaos Expansion (PCE)**, and **Global Sensitivity Analysis (GSA)**.
